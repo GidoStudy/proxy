@@ -2,10 +2,8 @@ package hello.proxy.config.v1_proxy.concrete_proxy;
 
 import hello.proxy.app.v1.OrderControllerV1;
 import hello.proxy.app.v2.OrderControllerV2;
-import hello.proxy.app.v2.OrderServiceV2;
 import hello.proxy.trace.TraceStatus;
 import hello.proxy.trace.logtrace.LogTrace;
-import lombok.RequiredArgsConstructor;
 
 public class OrderControllerConcreteProxy extends OrderControllerV2 {
 
